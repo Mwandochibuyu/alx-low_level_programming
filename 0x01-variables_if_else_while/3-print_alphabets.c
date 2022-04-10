@@ -8,7 +8,7 @@
 int main(void)
 {
 char alphABET;
-char lowercase;
+char uppercase;
 
 for (alphABET = 'a'; alphABET <= 'z'; alphABET++)
 {
