@@ -8,10 +8,16 @@
 int main(void)
 {
 char alphABET;
+char lowercase;
 
-for (alphABET = 'a', 'A'; alphABET <= 'z', 'Z'; alphABET++)
+for (alphABET = 'a'; alphABET <= 'z'; alphABET++)
 {
 putchar(alphABET);
+}
+
+for (uppercase = 'A'; uppercase <= 'Z'; uppercase++)
+{
+putchar(uppercase);
 }
 
 putchar('\n');
