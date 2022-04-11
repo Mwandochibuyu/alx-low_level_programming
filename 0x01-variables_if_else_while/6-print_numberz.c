@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-int i;
+char i;
 
 for (i = 35; i < 44; i++)
 {
