@@ -6,11 +6,11 @@
  * */
 int main(void)
 {
-	char ermias[] = "_putcar";
+	char ermias[] = "_putchar";
 
 	int c;
 
-	for (c = 0;c < 8; c++)
+	for (c = 0; c < 8; c++)
 	{
 		_putchar(ermias[c]);
 	}
