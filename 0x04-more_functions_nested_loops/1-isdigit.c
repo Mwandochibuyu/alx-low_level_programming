@@ -7,7 +7,7 @@
 
 int _isdigit(int c)
 {
-for (c = 0; c <= 10; c++)
+if (c >= 48 && c <= 57)
 {
 return (1);
 }
