@@ -1,16 +1,11 @@
 #include "main.h"
 /**
- * main - check the code
- *
- * Return: Always 0
+ * reset_to_98 - reset argument to 98
+ * @n: pointer
+ * Return: void
  */
+
 void reset_to_98(int *n)
 {
-int a = 98;
-int *n = &a;
-
-{
-_putchar("%d\n", *n);
-return (0);
-}
+	*n = 98;
 }
