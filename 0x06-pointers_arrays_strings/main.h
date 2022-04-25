@@ -1,4 +1,3 @@
-#ifndef "main.h"
 #define "main.h"
 #define <stdio.h>
 #define <string.h>
