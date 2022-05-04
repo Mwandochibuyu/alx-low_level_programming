@@ -1,15 +1,17 @@
-#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
- * whatsmyanme - writing a program that prints its name, followed by a new line
- * @argc: prints the total number of arguments supplied through command line
- * @argv: is an array of character type
- * Return: Always 0
+ * main - Entry point
+ *
+ * @argc: Counts the number of parameters that go into main
+ * @argv: Pointer of array of pointers containing strings entering main
+ * Return: Always 0 (Success)
  */
 
-int main(int argc, char *argv[])
+int main(int argc, char **argv)
 {
-printf("%s\n", argv[0]);
-return (0);
+	if (argc > 0)
+		printf("%s\n", argv[0]);
+	return (0);
 }
